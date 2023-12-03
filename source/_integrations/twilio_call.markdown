@@ -34,7 +34,7 @@ from_number:
   required: true
   type: string
 name:
-  description: Setting the optional parameter `name` allows multiple notifiers to be created. The notifier will bind to the service `notify.NOTIFIER_NAME`.
+  description: Setting the optional parameter `name` allows multiple notifiers (including both Twilio and others) to be created. The notifier will bind to the service `notify.NOTIFIER_NAME`.
   required: false
   default: "`notify`"
   type: string
